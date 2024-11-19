@@ -1,0 +1,18 @@
+QLineEdit, QDateEdit, QComboBox, QTextEdit { border-radius: 5px; }  
+
+QPushButton {  background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+			   stop : 0 #dbc0ee,
+			   stop : 1 #b17fd3);
+			   border-radius: 3px;}
+
+/*QLineEdit, QDateEdit, QComboBox, QTextEdit { border: 0.5px solid black;  }*/
+
+QPushButton:hover {  background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+					 stop:0 #ece0f5,
+					 stop : 1 #b17fd3); }
+
+QPushButton:disabled {  background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+						stop:0 white,
+						stop : 1 #b9a5c7); }
+
+QWidget#CustomTab { background-color: #f0f0f0; }
